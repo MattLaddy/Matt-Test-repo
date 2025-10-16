@@ -1,4 +1,6 @@
 
 steps:
   - name: 'ubuntu'
-    args: ['echo', 'This build log is being sent to Google Cloud Logging (something) only.']
+    args: ['echo', 'This build log is being sent to Google Cloud Logging (GCL) only.']
+options:
+  logging: CLOUD_LOGGING_ONLY
